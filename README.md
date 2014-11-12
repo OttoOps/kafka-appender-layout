@@ -1,7 +1,7 @@
 kafka-appender-layout
 =====================
 
-A subclass of the Kafka log4j appender with RegEx hard-coded for Druid
+A subclass of the Kafka log4j appender which brings RegEx capability.
 
   Example event (input):
    "Event [{"feed":"metrics","timestamp":"2014-07-29T16:23:26.240Z","service":"historical","host":"needle26.lab.mystrotv.com:8081","metric":"sys/swap/pageIn","value":0}]";
